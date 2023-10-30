@@ -7,7 +7,6 @@ public class Circle extends Shape {
 	private Double radius;
 	
 	public Circle() {
-		super();
 	}
 	
 	
