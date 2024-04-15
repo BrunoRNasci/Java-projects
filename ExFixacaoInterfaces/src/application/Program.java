@@ -22,13 +22,13 @@ public class Program {
 		
 		System.out.println("Entre os dados do contrato:");
 		System.out.print("Numero: ");
-		int number = sc.nextInt();
+		int contractNumber = sc.nextInt();
 		System.out.print("Data (dd/MM/yyyy): ");
 		LocalDate date = LocalDate.parse(sc.next(), fmt);
 		System.out.print("Valor do contrato: ");
 		double totalValue = sc.nextDouble();
 		
-		Contract obj = new Contract(number, date, totalValue);
+		Contract obj = new Contract(contractNumber, date, totalValue);
 		
 		System.out.print("Entre com o numero de parcelas: ");
 		int n = sc.nextInt();
